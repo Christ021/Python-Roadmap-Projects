@@ -1,4 +1,4 @@
-FOR LOOP SECTION: STUDY
+#FOR LOOP SECTION: STUDY
 
 for i in range(9):
     print("Hello")
