@@ -1,0 +1,17 @@
+choice = int(input("Distance Time and Speed Converter \n 1.Speed \n 2.Time \n 3.Distance \n Please Indicate your choices: "))
+
+if choice == 1:
+    Distance = int(input("What is the Distance: "))
+    Time = int(input("What is the Time: "))
+    Speed = Distance / Time
+    print(f"The Speed is: {Speed}Kph")
+elif choice == 2:
+    Distance = int(input("What is the Distance: "))
+    Speed = int(input("what is the Speed: "))
+    Time = Distance / Speed
+    print(f"The Time is: {Time}Hours")
+elif choice == 3:
+    Speed = int(input("What is the speed: "))
+    Time = int(input("What is the time: "))
+    Distance = Speed*Time
+    print(f"The Distance is: {Distance}Km")
