@@ -1,5 +1,5 @@
 
-n = int(input("\t ** WELCOME TO FIBONACCI SEQUENCE TO GOLDEN RATIO ** \n \n Please the number you want to stop: "))
+n = int(input("\t ** WELCOME TO FIBONACCI SEQUENCE TO GOLDEN RATIO ** \n \n Input the number you want to stop: "))
 a, b = 0, 1
 print(f"\t ** WELCOME TO FIBONACCI SEQUENCE TO GOLDEN RATIO ** \nFibonacci Sequence: {a}")
 
